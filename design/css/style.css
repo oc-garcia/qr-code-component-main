@@ -7,6 +7,31 @@
   --Dark_blue: hsl(218, 44%, 22%);
   font-size: 15px;
   font-family: "Outfit", sans-serif;
+  background: var(--Light_gray);
+}
+
+.card__container {
+  margin: 3rem;
+  padding: 1rem;
+  background: var(--White);
+  border-radius: 10px;
+}
+
+.card__title {
+    text-align: center;
+    font-weight: 700;
+    color: var(--Dark_blue);
+}
+
+.card__text {
+    text-align: center;
+    font-weight: 400;
+    color: var(--Grayish_blue);
+}
+
+.card__qrcode {
+    width: 100%;
+    border-radius: 10px;
 }
 
 .attribution {
