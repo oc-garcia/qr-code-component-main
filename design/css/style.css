@@ -18,20 +18,20 @@
 }
 
 .card__title {
-    text-align: center;
-    font-weight: 700;
-    color: var(--Dark_blue);
+  text-align: center;
+  font-weight: 700;
+  color: var(--Dark_blue);
 }
 
 .card__text {
-    text-align: center;
-    font-weight: 400;
-    color: var(--Grayish_blue);
+  text-align: center;
+  font-weight: 400;
+  color: var(--Grayish_blue);
 }
 
 .card__qrcode {
-    width: 100%;
-    border-radius: 10px;
+  width: 100%;
+  border-radius: 10px;
 }
 
 .attribution {
@@ -40,4 +40,11 @@
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (min-width: 425px) {
+  .card__container {
+    width: 40%;
+    margin: 5rem auto;
+  }
 }
