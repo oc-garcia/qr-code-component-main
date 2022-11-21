@@ -12,7 +12,7 @@
 
 .card__container {
   margin: 3rem;
-  padding: 1rem;
+  padding: 2rem;
   background: var(--White);
   border-radius: 10px;
 }
@@ -44,7 +44,8 @@
 
 @media only screen and (min-width: 425px) {
   .card__container {
-    width: 40%;
+    width: 30%;
+    padding: 2rem;
     margin: 5rem auto;
   }
 }
